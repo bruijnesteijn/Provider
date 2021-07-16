@@ -1,9 +1,9 @@
 import SwiftUI
 
 public protocol ProviderDelegate {
-    func imageFromAssets(name: String) -> Image
+    static func imageFromAssets(name: String) -> Image
 }
 
 public protocol UIProviderDelegate {
-    func uiImageFromAssets(name: String) -> UIImage?
+    static func uiImageFromAssets(name: String) -> UIImage?
 }
