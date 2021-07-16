@@ -1,3 +1,5 @@
+import SwiftUI
+
 public protocol ProviderDelegate {
-    func imageFromAssets(name: String)
+    func imageFromAssets(name: String) -> Image
 }
